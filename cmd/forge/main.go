@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"os"
+)
 
 func main() {
-	fmt.Println("hello world from forge main")
+	os.Exit(run())
 }
